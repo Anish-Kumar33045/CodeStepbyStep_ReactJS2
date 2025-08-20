@@ -1,0 +1,45 @@
+/* index.css */
+
+/* Reset some defaults */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* User list header and rows */
+.user-list {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 100px;
+  align-items: center;
+  padding: 12px 16px;
+  margin: 0;
+  border-bottom: 1px solid #ddd;
+  list-style: none;
+}
+
+.user-head {
+  background-color: #007acc;
+  color: white;
+  font-weight: bold;
+  border-top: 2px solid #007acc;
+}
+
+/* Row hover */
+.user-list:hover:not(.user-head) {
+  background-color: #f1f1f1;
+}
+
+/* Action button */
+.user-list button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  transition: transform 0.2s ease;
+}
+
+.user-list button:hover {
+  transform: scale(1.2);
+}

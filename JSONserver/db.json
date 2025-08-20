@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "name": "anish",
+      "age": "21",
+      "email": "anish@t",
+      "id": "5384"
+    },
+    {
+      "name": "amruth raj",
+      "age": "18",
+      "email": "raj@testmail.j",
+      "id": "1c26"
+    },
+    {
+      "name": "Anish Kumar",
+      "age": "22",
+      "email": "hiellocom",
+      "id": "efb0"
+    }
+  ]
+}

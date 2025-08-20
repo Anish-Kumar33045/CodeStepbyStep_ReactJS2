@@ -1,0 +1,55 @@
+
+📌 API Short Notes
+🔹 What is an API?
+
+API = Application Programming Interface
+
+A set of rules that allows two software applications to communicate.
+
+Works as a bridge between frontend (UI) and backend (database/server).
+
+🔹 Types of APIs
+
+Open APIs (Public) → available for everyone (e.g., weather API, Google Maps).
+
+Private APIs → used inside an organization.
+
+Partner APIs → shared between business partners.
+
+Composite APIs → combine multiple APIs into one.
+
+🔹 API Styles
+
+REST API
+
+Uses HTTP methods: GET, POST, PUT, DELETE.
+
+Works with JSON or XML (JSON is most common).
+
+Example: GET /users → fetch users.
+
+SOAP API
+
+Uses XML, strict structure, older but very secure.
+
+GraphQL API
+
+Client asks only for required data.
+
+🔹 Common HTTP Methods
+
+GET → Read data
+
+POST → Create new data
+
+PUT → Update existing data
+
+DELETE → Remove data
+
+🔹 Advantages
+
+Reusability (same API can be used by web, mobile apps).
+
+Faster development (no need to rewrite backend logic).
+
+Scalability (frontend & backend can grow independently).
