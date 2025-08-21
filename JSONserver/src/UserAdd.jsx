@@ -6,12 +6,15 @@ export default function UserAdd() {
   const [age, setAge] = useState("");
 
   const createUser = async () => {
-    console.log("User Created : ", { name, age, email });
+    // console.log("User Created : ", { name, age, email });
     const url = "http://localhost:5000/users";
 
     let response = await fetch(url, {
       method: "Post",
       body: JSON.stringify({ name, email, age }),
+      // JSON.stringify converts Javascript object {name,email,age} into JSON formatted
+      // string because the server expects data in JSON format over HTTP requests.
+      // this data is sent with HTTP post request to api
     });
     response = await response.json();
 
